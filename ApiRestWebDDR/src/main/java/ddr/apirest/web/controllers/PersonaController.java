@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 import ddr.apirest.web.models.PersonaModel;
 import ddr.apirest.web.services.PersonaService;
 
-//@CrossOrigin
 @RestController
 @RequestMapping("/personas")
 public class PersonaController {
